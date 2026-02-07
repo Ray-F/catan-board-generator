@@ -400,7 +400,7 @@ export function CatanBoard() {
   const verticalSpacing = hexHeight * 0.75;
 
   let tileIndex = 0;
-  const hexElements: JSX.Element[] = [];
+  const hexElements: React.JSX.Element[] = [];
 
   for (let row = 0; row < ROW_SIZES.length; row++) {
     const rowSize = ROW_SIZES[row];
